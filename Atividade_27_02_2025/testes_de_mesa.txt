@@ -1,0 +1,213 @@
+
+Teste de Mesa para os Códigos:
+
+1. Cálculo da Idade em Dias:
+   Entrada:
+   Digite a idade em anos: 25
+   Digite a idade em meses: 6
+   Digite a idade em dias: 15
+
+   Processo de Cálculo:
+   Anos em dias: 25 * 365 = 9125
+   Meses em dias: 6 * 30 = 180
+   Dias extras: 15
+   Total de dias: 9125 + 180 + 15 = 9320
+
+   Saída:
+   A idade em dias é: 9320
+
+2. Percentual de Votos:
+   Entrada:
+   Digite o número total de eleitores: 1000
+   Digite o número de votos brancos: 100
+   Digite o número de votos nulos: 50
+   Digite o número de votos válidos: 850
+
+   Processo de Cálculo:
+   Percentual de votos brancos: (100 / 1000) * 100 = 10.0%
+   Percentual de votos nulos: (50 / 1000) * 100 = 5.0%
+   Percentual de votos válidos: (850 / 1000) * 100 = 85.0%
+
+   Saída:
+   Percentual de votos brancos: 10.0%
+   Percentual de votos nulos: 5.0%
+   Percentual de votos válidos: 85.0%
+
+3. Cálculo do Novo Salário:
+   Entrada:
+   Digite o salário atual: 2000
+   Digite o percentual de reajuste: 10
+
+   Processo de Cálculo:
+   Reajuste: 2000 * (10 / 100) = 200
+   Novo salário: 2000 + 200 = 2200
+
+   Saída:
+   O novo salário é: R$ 2200.0
+
+4. Cálculo do Custo Final de um Carro:
+   Entrada:
+   Digite o custo de fábrica do carro: 30000
+
+   Processo de Cálculo:
+   Distribuidor: 30000 * 0.28 = 8400
+   Impostos: 30000 * 0.45 = 13500
+   Custo final: 30000 + 8400 + 13500 = 51900
+
+   Saída:
+   O custo final ao consumidor é: R$ 51900.0
+
+5. Cálculo do Salário Final do Vendedor:
+   Entrada:
+   Digite o número de carros vendidos: 10
+   Digite o valor total das vendas: 100000
+   Digite o salário fixo: 1500
+   Digite o valor recebido por carro vendido: 200
+
+   Processo de Cálculo:
+   Comissão por carros vendidos: 10 * 200 = 2000
+   Comissão sobre vendas: 100000 * 0.05 = 5000
+   Salário final: 1500 + 2000 + 5000 = 8500
+
+   Saída:
+   O salário final do vendedor é: R$ 8500.0
+
+6. Conversão de Temperatura Fahrenheit para Celsius:
+   Entrada:
+   Digite a temperatura em Fahrenheit: 212
+
+   Processo de Cálculo:
+   Celsius = (212 - 32) * (5 / 9) = 100
+
+   Saída:
+   A temperatura em Celsius é: 100.0
+
+7. Verificação se um Valor é Maior que 10:
+   Entrada:
+   Digite um valor: 12
+
+   Processo de Cálculo:
+   O valor é maior que 10.
+
+   Saída:
+   É MAIOR QUE 10!
+
+8. Verificação de Valor Positivo ou Negativo:
+   Entrada:
+   Digite um valor: -5
+
+   Processo de Cálculo:
+   O valor é negativo.
+
+   Saída:
+   O valor é negativo.
+
+9. Cálculo do Custo Total da Compra de Maçãs:
+   Entrada:
+   Digite o número de maçãs compradas: 10
+
+   Processo de Cálculo:
+   O custo total será: 10 * 1.30 = 13.0
+
+   Saída:
+   O custo total da compra é: R$ 13.0
+
+10. Cálculo da Média de Notas e Aprovação:
+    Entrada:
+    Digite a nota da 1ª avaliação: 7
+    Digite a nota da 2ª avaliação: 8
+
+    Processo de Cálculo:
+    Média: (7 + 8) / 2 = 7.5
+
+    Saída:
+    Média: 7.5
+    O aluno foi aprovado!
+
+11. Verificação de Possibilidade de Voto:
+    Entrada:
+    Digite o ano de nascimento: 2000
+    Digite o ano atual: 2025
+
+    Processo de Cálculo:
+    Idade: 2025 - 2000 = 25
+    Pode votar, pois a idade é maior que 16.
+
+    Saída:
+    A pessoa pode votar!
+
+12. Verificação do Maior Valor:
+    Entrada:
+    Digite o primeiro valor: 10
+    Digite o segundo valor: 20
+
+    Processo de Cálculo:
+    O maior valor é 20.
+
+    Saída:
+    O maior valor é 20.
+
+13. Ordem Crescente dos Valores:
+    Entrada:
+    Digite o primeiro valor: 20
+    Digite o segundo valor: 10
+
+    Processo de Cálculo:
+    Ordem crescente: 10, 20
+
+    Saída:
+    Valores em ordem crescente: 10, 20
+
+14. Cálculo da Duração de um Jogo de Xadrez:
+    Entrada:
+    Hora de início: 14
+    Hora de fim: 18
+
+    Processo de Cálculo:
+    Duração: 18 - 14 = 4 horas
+
+    Saída:
+    Duração do jogo: 4 horas
+
+15. Cálculo do Salário Total com Hora Extra:
+    Entrada:
+    Número de horas trabalhadas: 180
+    Salário por hora: 10
+
+    Processo de Cálculo:
+    Salário base: 40 * 10 * 4 = 1600
+    Horas extras: (180 - 160) * 10 * 1.5 = 300
+    Salário final: 1600 + 300 = 1900
+
+    Saída:
+    O salário total é: R$ 1900.0
+
+16. Cálculo da Despesa Total do Trimestre:
+    Entrada:
+    Gasto em janeiro: 15000
+    Gasto em fevereiro: 23000
+    Gasto em março: 17000
+
+    Processo de Cálculo:
+    Despesa total: 15000 + 23000 + 17000 = 55000
+    Média mensal: 55000 / 3 = 18333.33
+
+    Saída:
+    Despesa total no trimestre: R$ 55000
+    Média mensal de gastos: R$ 18333.33
+
+17. Cálculo da Média de LP1:
+    Entrada:
+    P1: 7
+    E1: 6
+    E2: 7
+    API: 8
+    X: 0
+    SUB: 0
+
+    Processo de Cálculo:
+    (P1 * 0.6 + ((E1 + E2) / 2) * 0.4) * 0.5 + max(((P1 * 0.6 + ((E1 + E2) / 2) * 0.4) - 5.9), 0) / ((P1 * 0.6 + ((E1 + E2) / 2) * 0.4) - 5.9)) * (API * 0.5) + X + (SUB * 0.3)
+    Média: 7.0
+
+    Saída:
+    A média de LP1 é: 7.0
