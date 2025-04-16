@@ -1,0 +1,113 @@
+/* root - Estilo geral */
+.root {
+    -fx-background-color: #f7f8fc; /* Fundo claro, quase branco */
+    -fx-font-family: 'Segoe UI', 'Roboto', sans-serif;
+    -fx-alignment: center;
+    -fx-spacing: 30; /* Maior espaçamento para dar mais "respiro" */
+    -fx-padding: 20 40 20 40; /* Espaçamento interno maior para um layout mais espaçoso */
+}
+
+/* Estilo para os botões */
+.button {
+    -fx-font-size: 16px;
+    -fx-background-color: #4caf50; /* Verde vibrante */
+    -fx-text-fill: white;
+    -fx-padding: 12 24;
+    -fx-background-radius: 12; /* Bordas mais arredondadas */
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 6, 0, 4, 4); /* Sombras mais sutis */
+    -fx-transition: background-color 0.3s, transform 0.3s ease-in-out; /* Transições suaves */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+.button:hover {
+    -fx-background-color: #388e3c; /* Verde mais escuro */
+    -fx-transform: scale(1.05); /* Aumenta ligeiramente o botão para um efeito de hover */
+}
+
+/* Efeito ao pressionar o botão */
+.button:pressed {
+    -fx-background-color: #2e7d32; /* Mais escuro no click */
+    -fx-transform: scale(0.98); /* Efeito de "pressionar" */
+}
+
+/* Estilo das Labels */
+.label {
+    -fx-font-size: 20px;
+    -fx-text-fill: #333; /* Cor escura */
+    -fx-font-weight: normal;
+    -fx-alignment: center;
+    -fx-padding: 5 0;
+    -fx-transition: color 0.3s ease; /* Transição suave para a mudança de cor */
+}
+
+/* Estilo específico para o título principal */
+.label-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50; /* Cor escura mais sofisticada */
+    -fx-padding: 10 0;
+    -fx-transition: color 0.3s ease;
+}
+
+/* Estilo para o ComboBox */
+.combo-box {
+    -fx-font-size: 14px;
+    -fx-padding: 12 16;
+    -fx-background-color: #ffffff; /* Fundo branco */
+    -fx-border-color: #ddd; /* Cor de borda sutil */
+    -fx-border-radius: 6; /* Bordas arredondadas */
+    -fx-background-radius: 6;
+    -fx-font-weight: normal;
+    -fx-text-fill: #555; /* Texto escuro */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 3, 0, 2, 2); /* Sombra suave */
+}
+
+/* Foco do ComboBox */
+.combo-box:focused {
+    -fx-border-color: #4caf50; /* Verde quando em foco */
+    -fx-background-color: #f1f8f6; /* Fundo suave quando em foco */
+}
+
+/* Estilo para o ComboBox, quando desabilitado */
+.combo-box:disabled {
+    -fx-background-color: #f1f1f1;
+    -fx-border-color: #ccc;
+    -fx-text-fill: #aaa; /* Texto mais claro quando desabilitado */
+}
+
+/* Estilo de foco para o campo de texto */
+.text-field:focused {
+    -fx-border-color: #4caf50;
+    -fx-background-color: #f1f8f6; /* Fundo suave */
+}
+
+/* Estilo do campo de texto */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 10;
+    -fx-background-color: #ffffff;
+    -fx-border-radius: 8;
+    -fx-border-color: #ddd; /* Borda clara */
+    -fx-background-radius: 8;
+    -fx-text-fill: #333;
+}
+
+/* Efeito de sombra nos campos de entrada */
+.text-field:focused {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 4, 0, 2, 2);
+}
+
+/* Estilo para o campo de texto desabilitado */
+.text-field:disabled {
+    -fx-background-color: #f1f1f1;
+    -fx-border-color: #ccc;
+    -fx-text-fill: #aaa;
+}
+
+/* Estilo para os campos de seleção (ComboBox e TextFields) */
+.text-field, .combo-box {
+    -fx-font-family: 'Segoe UI', sans-serif;
+    -fx-font-size: 14px;
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Pos?>
+<?import javafx.scene.image.Image?>
+
+<VBox fx:controller="org.example.atividade_15_04_2025.controller.ChapeuController"
+      xmlns:fx="http://javafx.com/fxml"
+      spacing="10"
+      alignment="TOP_CENTER"
+      styleClass="root">
+
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <!-- Imagem -->
+    <ImageView fx:id="imagemItem" fitWidth="200" fitHeight="200" preserveRatio="true">
+        <image>
+            <Image url="@../imagens/Chapeus.jpeg" />
+        </image>
+    </ImageView>
+
+    <!-- Campos de entrada -->
+    <Label text="Estilo do Chapéu:"/>
+    <TextField fx:id="campoEstilo" promptText="Ex: Fedora, Panamá"/>
+
+    <Label text="Cor:"/>
+    <TextField fx:id="campoCor" promptText="Ex: Preto, Vermelho"/>
+
+    <Label text="Tamanho:"/>
+    <TextField fx:id="campoTamanho" promptText="Ex: 56, 58"/>
+
+    <!-- Botões -->
+    <Button onAction="#btnVestirClick" text="Vestir"/>
+    <Button onAction="#btnAjustarClick" text="Ajustar"/>
+    <Button onAction="#btnDobrarClick" text="Dobrar"/>
+    <Button onAction="#btnVoltarClick" text="Voltar"/>
+
+</VBox>

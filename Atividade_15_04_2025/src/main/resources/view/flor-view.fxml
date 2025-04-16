@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Pos?>
+<?import javafx.scene.image.Image?>
+
+<VBox fx:controller="org.example.atividade_15_04_2025.controller.FlorController"
+      xmlns:fx="http://javafx.com/fxml"
+      spacing="10"
+      alignment="TOP_CENTER"
+      styleClass="root">
+
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <!-- Imagem do item -->
+    <ImageView fx:id="imagemItem" fitWidth="200" fitHeight="200" preserveRatio="true">
+        <image>
+            <Image url="@../imagens/Flores.jpeg" />
+        </image>
+    </ImageView>
+
+    <!-- Campos de entrada para os dados dinâmicos -->
+    <Label text="Digite os dados da Flor:"/>
+
+    <Label text="Tipo:"/>
+    <TextField fx:id="campoTipo" promptText="Ex: Rosa"/>
+
+    <Label text="Cor:"/>
+    <TextField fx:id="campoCor" promptText="Ex: Vermelho"/>
+
+    <Label text="Altura:"/>
+    <TextField fx:id="campoAltura" promptText="Ex: 10.25"/>
+
+    <!-- Botões -->
+    <Button onAction="#btnFlorescerClick" text="Florescer"/>
+    <Button onAction="#btnMurcharClick" text="Murchar"/>
+    <Button onAction="#btnCrescerClick" text="Crescer"/>
+    <Button onAction="#btnVoltarClick" text="Voltar"/>
+</VBox>

@@ -1,0 +1,50 @@
+.root {
+    /* Fundo com leve gradiente para dar profundidade e sofisticação */
+    -fx-background-color: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    -fx-font-family: 'Helvetica Neue', sans-serif;
+    -fx-padding: 40;
+}
+
+/* Estilo dos botões modernos */
+.button {
+    -fx-font-size: 14px;
+    -fx-background-color: #5c6bc0; /* Tom azul moderno */
+    -fx-text-fill: #ffffff;
+    -fx-padding: 12 24;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-cursor: hand;
+    /* Transição suave para mudanças de estado */
+    -fx-transition: all 0.3s ease-in-out;
+    /* Sombra sutil para efeito de elevação */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 6, 0, 3, 3);
+}
+
+.button:hover {
+    -fx-background-color: #3f51b5;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 8, 0, 4, 4);
+}
+
+/* Estilo dos campos de entrada */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 10 14;
+    -fx-background-color: #ffffff;
+    -fx-border-color: transparent;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.05), 4, 0, 2, 2);
+    -fx-prompt-text-fill: #9e9e9e;
+}
+
+.text-field:focused {
+    -fx-border-color: #5c6bc0;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 6, 0, 3, 3);
+}
+
+/* Estilo dos labels para manter a tipografia clean */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #212121;
+    -fx-font-weight: 500;
+}
